@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <title>Technical World</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <style type="text/css">
+        </style>
+    </head>
+
+    <body>
+        <header class="main_header">
+            <div class="d-flex justify-content-center align-items-center flex-column py-5">
+                <h1 class="text-uppercase main_heading">Technical World</h1>
+                <p class="main_heading__para"><span class="text-capitalize bg-dark text-white py-2 px-3">Welcome to my world of blog</span> </p>
+            </div>
+            <!-- //the main image -->
+            <div class="main_header__div d-flex align-items-start
+        justify-content-center  flex-column shadow pl-5">
+                <p>Technical World</p>
+                <!-- <h2 class="text-uppercase">the Progammer guy</h2> -->
+                <h2 class="animateWord">
+                    <span>is</span>
+                    <div>
+                        <!--        Use classes 2,3, or 4 to match the number of words -->
+                        <ul class="flip4">
+                            <li>Amazing</li>
+                            <li>Scientific Tech</li>
+                            <li>Digitalised</li>
+                        </ul>
+                    </div>
+                </h2>
+                <button class="text-uppercase" onclick="showAlert()">Subscribe</button>
+            </div>
+        </header>
+        <!-- header ends -->
+        <!-- two sided blog part starts -->
+        <div class="container-fluid ">
+            <div class="row ">
+                <!-- to get the space form left and right -->
+                <div class="col-xl-10  col-lg-10 col-md-12 col-11 mx-auto my-5">
+                    <div class="row gx-5 mx-sm-auto">
+                        <!-- left side of the blog  -->
+                        <div class="col-lg-8 col-md-11 col-11 mx-auto">
+                            <div class="row gy-5 ">
+                                <div class="col-12 card p-4 shadow blog_left__div">
+                                    <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-5 ">
+                                        <h1 class="text-uppercase">Best Laptop in 2022</h1>
+                                        <p class="blog_title"> <span class="font-weight-bold"> Title description, </span> Oct 10, 2022 </p>
+                                    </div>
+                                    <figure class="right_side_img mb-5">
+                                        <img src="https://cdn.neow.in/news/images/uploaded/2019/05/1558909638_oled1_story.jpg" class="img-fluid shadow">
+                                    </figure>
+                                    <p><span class="font-weight-bold"> Technical World</span> Welcomes, all of you to world of blog. Some text about this blog entry. To help you buy the best laptop of 2022 </p>
+                                    <p>
+                                        Here are some factors to consider:</p>
+
+<p>Battery life varies widely from one laptop to another. If you frequently need to use your laptop away from a power source, you'll want a computer that offers more hours of use between charges. More professionals are working remotely than ever before, so battery life and portability are more relevant than ever.</p>
+<p>Smaller laptops with 11-inch or 13-inch screens are usually lighter and more portable, suitable for people who must stay "on the move" for work. Larger laptops with 15-inch or 17-inch screens are better for multimedia and creative applications. This is because creatives often have two large screens to run multiple applications at a time. With these factors in mind, the best laptop size will depend on your exact needs.</p>
+<p>In 2021, touch screen laptops may be an upgrade worth making. It's better for users that want a more intuitive experience, and it's also great for creatives. For example, a touch screen can make it easier for illustrators and designers to draw, take notes, or save space in the office. A 4K laptop will provide a higher, more superior viewing experience. These laptops with much higher resolutions give a more immersive experience, whether working, gaming, or streaming.</p>
+<p>For users who spend more time on their laptops, ergonomic keyboards are ideal. Laptops are not only specifically just for work or entertainment purposes – and there's a good chance that you use your computer for more than one reason.
+                                    </p>
+                                    <div class="d-flex justify-content-between left_div_btns">
+                                        <div>
+                                            <button class="left_div__like" id="like_btn"><i class="fa fa-thumbs-up"></i>Like</button>
+                                        </div>
+                                        <div>
+                                            <button class="left_div__reply" onclick="reply('reply1')">Replies <badge class="bg-white text-dark p-2">1</badge></button>
+                                        </div>
+                                    </div>
+                                    <div class="replies" id="reply1">
+                                        <div class="d-flex justify-content-start flex-row align-items-center card reply_card py-3 ">
+                                            <div class=" reply_img mx-2 align-self-center ">
+                                                <img src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png" />
+                                            </div>
+                                            <div class="reply_text__left">
+                                                <p class="blog_title "> <span class="font-weight-bold"> Abhishek, </span> Oct 10, 2022, 7:20 PM </p>
+                                                <p>Amazing, Bro I love your content.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 2nd topic  -->
+                                <div class="col-12 card p-4 shadow blog_left__div">
+                                    <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-5 ">
+                                        <h1 class="text-uppercase">Frontend Web TechStacks</h1>
+                                        <p class="blog_title"> <span class="font-weight-bold"> Title description, </span> Oct 11,2022 </p>
+                                    </div>
+                                    <figure class="right_side_img mb-5">
+                                        <img src="https://www.syncfusion.com/blogs/wp-content/uploads/2020/07/Top-6-Front-End-Web-Development-Tools-to-Increase-Your-Productivity-in-2020-1.jpg" class="img-fluid shadow">
+                                    </figure>
+                                    <p><span class="font-weight-bold">Technical World</span> Welcomes, all of you to world of blog.Front-end web development, also known as client-side development is the practice of producing HTML, CSS and JavaScript for a website or Web Application so that a user can see and interact with them directly. The challenge associated with front end development is that the tools and techniques used to create the front end of a website change constantly and so the developer needs to constantly be aware of how the field is developing.
+
+                                        The objective of designing a site is to ensure that when the users open up the site they see the information in a format that is easy to read and relevant. This is further complicated by the fact that users now use a large variety of devices with varying screen sizes and resolutions thus forcing the designer to take into consideration these aspects when designing the site. They need to ensure that their site comes up correctly in different browsers (cross-browser), different operating systems (cross-platform) and different devices (cross-device), which requires careful planning on the side of the developer.
+                                        </p>
+                                        <div class="d-flex justify-content-between left_div_btns">
+                                            <div>
+                                                <button class="left_div__like" id="like_btn"><i class="fa fa-thumbs-up"></i>Like</button>
+                                            </div>
+                                        <div>
+                                            <button class="left_div__reply" onclick="reply('reply2')">Replies <badge class="bg-white text-dark p-2">2</badge></button>
+                                        </div>
+                                    </div>
+                                    <div class="replies" id="reply2">
+                                        <div class="d-flex justify-content-start flex-row align-items-center card reply_card py-3 ">
+                                            <div class=" reply_img mx-2 align-self-center ">
+                                                <img src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png" />
+                                            </div>
+                                            <div class="reply_text__left">
+                                                <p class="blog_title "> <span class="font-weight-bold"> Prince, </span> Oct 11, 2022, 9:00 PM </p>
+                                                <p>I really like the way you explain. Subscribed :)</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-start flex-row align-items-center card reply_card py-3 ">
+                                            <div class=" reply_img mx-2 align-self-center ">
+                                                <img src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png" />
+                                            </div>
+                                            <div class="reply_text__left">
+                                                <p class="blog_title "> <span class="font-weight-bold"> Aman, </span> Oct 12, 2022, 7:20 PM </p>
+                                                <p>Nice, Bro great content.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 3rd topic -->
+                                <div class="col-12 card p-4 shadow blog_left__div">
+                                    <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-5 ">
+                                        <h1 class="text-uppercase">BackEnd TechStacks</h1>
+                                        <p class="blog_title"> <span class="font-weight-bold"> Title description, </span> Oct 12, 2022 </p>
+                                    </div>
+                                    <figure class="right_side_img mb-5">
+                                        <img src="https://training.uark.edu/_resources/images/hero-it-readiness-back-end.jpg" class="img-fluid shadow">
+                                    </figure>
+                                    <p><span class="font-weight-bold">Technical World</span> Welcomes, all of you to world of blog.Back-end Development refers to the server-side development. It focuses on databases, scripting, website architecture. It contains behind-the-scene activities that occur when performing any action on a website. It can be an account login or making a purchase from an online store. Code written by back-end developers helps browsers to communicate with database information.
+                                    
+                                        Most common example of Backend programming is when you are reading an article on the blog. The fonts, colors, designs, etc. constitute the frontend of this page. While the content of the article is rendered from a server and fetched from a database. This is the backend part of the application.</p>
+                                    <div class="d-flex justify-content-between left_div_btns">
+                                        <div>
+                                            <button class="left_div__like" id="like_btn"><i class="fa fa-thumbs-up"></i>Like</button>
+                                        </div>
+                                        <div>
+                                            <button class="left_div__reply" onclick="reply('reply3')">Replies <badge class="bg-white text-dark p-2">4</badge></button>
+                                        </div>
+                                    </div>
+                                    <div class="replies" id="reply3">
+                                        <div class="d-flex justify-content-start flex-row align-items-center card reply_card py-3 ">
+                                            <div class=" reply_img mx-2 align-self-center ">
+                                                <img src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png" />
+                                            </div>
+                                            <div class="reply_text__left">
+                                                <p class="blog_title "> <span class="font-weight-bold"> Nikhil, </span> Oct 12, 2022, 7:20 PM </p>
+                                                <p>Awesome, Bro I love your content.</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-start flex-row align-items-center card reply_card py-3 ">
+                                            <div class=" reply_img mx-2 align-self-center ">
+                                                <img src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png" />
+                                            </div>
+                                            <div class="reply_text__left">
+                                                <p class="blog_title "> <span class="font-weight-bold"> AdiTech, </span> Oct 13, 2022, 7:20 PM </p>
+                                                <p>Awesome, Bro I love your content.</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-start flex-row align-items-center card reply_card py-3 ">
+                                            <div class=" reply_img mx-2 align-self-center ">
+                                                <img src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png" />
+                                            </div>
+                                            <div class="reply_text__left">
+                                                <p class="blog_title "> <span class="font-weight-bold"> Ritik, </span> Oct 14, 2022, 7:20 PM </p>
+                                                <p>Awesome, Bro I love your content.</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-start flex-row align-items-center card reply_card py-3 ">
+                                            <div class=" reply_img mx-2 align-self-center ">
+                                                <img src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png" />
+                                            </div>
+                                            <div class="reply_text__left">
+                                                <p class="blog_title "> <span class="font-weight-bold"> Vishal, </span> Oct 16, 2022, 7:20 PM </p>
+                                                <p>Awesome, Bro I love your content.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--  *******************************************************
+            **********************************************************.
+            right side of the div
+            *******************************************************
+            **********************************************************
+            -->
+            <div class="col-lg-3 col-md-7 col-11  justify-content-end m-lg-0 m-auto ">
+                <div class="row gy-5 left_div__blog">
+                    <!-- about me -->
+                    <!-- <div class="col-12  about_me_div shadow">
+                        <p>Abhishek Tripathi</p>
+                        <p>A young and passionate guy who wants to grow in this field with his creative and innovative approach.</p>
+                    </div> -->
+                    <!-- popular post -->
+                    <div class=" popular_post ">
+                        <div class="right_div__title py-4 pl-2 ">
+                            <h2>Popular Posts</h2>
+                        </div>
+                        <div class="right_sub__div shadow">
+                            <div class="row ">
+                                <div class="col-3  popular_post__img1 py-2 pl-2">
+                                </div>
+                                <div class="col-9">
+                                    <h3>Bill Gates</h3>
+                                    <p class="text-capitalize">CEO Microsoft</p>
+                                </div>
+                            </div>
+                            <div class="row ">
+                                <div class="col-3  popular_post__img2 py-2 pl-2">
+                                </div>
+                                <div class="col-9">
+                                    <h3>Mark Zuckerberg </h3>
+                                    <p class="text-capitalize">Programmer</p>
+                                </div>
+                            </div>
+                            <div class="row ">
+                                <div class="col-3  popular_post__img3 py-2 pl-2">
+                                </div>
+                                <div class="col-9">
+                                    <h3>Jeff Bezos</h3>
+                                    <p class="text-capitalize">Amazon</p>
+                                </div>
+                            </div>
+                            <div class="row ">
+                                <div class="col-3  popular_post__img4 py-2 pl-2">
+                                </div>
+                                <div class="col-9">
+                                    <h3>Steve Jobs</h3>
+                                    <p class="text-capitalize">Apple</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                <!-- advertise -->
+                                <div class=" right_div_post">
+                                    <div class="right_div__title py-4 pl-2 ">
+                                        <h2>Advertise</h2>
+                                    </div>
+                                    <div class="right_sub__div ">
+                                        <div class="adevetise_img bg-light shadow">
+                                            <p>Ads goes here</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- tags -->
+                                <div class=" right_div_post">
+                                    <div class="right_div__title py-4 pl-2 ">
+                                        <h2>Tags</h2>
+                                    </div>
+                                    <div class="tags_main right_sub__div">
+                                        <a href="#" class="badge shadow text-capitalize"> html </a>
+                                        <a href="#" class="badge shadow text-capitalize"> css </a>
+                                        <a href="#" class="badge shadow text-capitalize"> js </a>
+                                        <a href="#" class="badge shadow text-capitalize"> jquery </a>
+                                        <a href="#" class="badge shadow text-capitalize"> angular </a>
+                                        <a href="#" class="badge shadow text-capitalize"> python </a>
+                                        <a href="#" class="badge shadow text-capitalize"> java </a>
+                                        <a href="#" class="badge shadow text-capitalize"> c++ </a>
+                                        <a href="#" class="badge shadow text-capitalize"> dbms </a>
+                                        <a href="#" class="badge shadow text-capitalize"> php </a>
+                                    </div>
+                                </div>
+                                <!-- Inspiration -->
+                                <div class=" right_div_post">
+                                    <div class="right_div__title py-4 pl-2 ">
+                                        <h2>Inspiration</h2>
+                                    </div>
+                                    <div class="right_sub__div">
+                                        <div class="row gx-3">
+                                            <div class="col-6">
+                                                <figure>
+                                                    <img src="https://images.pexels.com/photos/196659/pexels-photo-196659.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" class="img-fluid shadow">
+                                                </figure>
+                                            </div>
+                                            <div class="col-6">
+                                                <figure>
+                                                    <img src="https://images.pexels.com/photos/34140/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="img-fluid shadow">
+                                                </figure>
+                                            </div>
+                                            <div class="col-6">
+                                                <figure>
+                                                    <img src="https://images.pexels.com/photos/38547/office-freelancer-computer-business-38547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="img-fluid shadow">
+                                                </figure>
+                                            </div>
+                                            <div class="col-6">
+                                                <figure>
+                                                    <img src="https://images.pexels.com/photos/196659/pexels-photo-196659.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" class="img-fluid shadow">
+                                                </figure>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Follow Me -->
+                                <div class=" right_div_post">
+                                    <div class="right_div__title py-4 pl-2 ">
+                                        <h2>Follow Me</h2>
+                                    </div>
+                                    <div class="right_sub__div d-flex justify-content-around">
+                                        <a href="#"> <i class="fab fa-facebook-square fa-3x"></i></a>
+                                        <a href="#"> <i class="fab fa-3x fa-instagram"></i></a>
+                                        <a href="#"> <i class="fab fa-3x fa-github-square"></i> </a>
+                                        <a href="#"> <i class="fab fa-3x fa-twitter-square"></i></a>
+                                        <a href="#"> <i class="fab fa-3x fa-youtube-square"></i> </a>
+                                        <a href="https://www.linkedin.com/in/kalash-shandilya-0905b0201/" target="_blank"> <i class="fab fa-3x fa-linkedin"></i></a>
+                                    </div>
+                                </div>
+                                <!-- Subscribe -->
+                                <div class=" right_div_post">
+                                    <div class="right_div__title py-4 pl-2 ">
+                                        <h2>Subscribe</h2>
+                                    </div>
+                                    <div class="right_sub__div">
+                                        <form>
+                                            <div class="mb-3">
+                                                <label for="exampleFormControlInput1" class="form-label">Enter your e-mail below and get notified on the latest blog posts.</label>
+                                                <input type="email" class="form-control mt-2" id="exampleFormControlInput1" placeholder="name@example.com">
+                                            </div>
+                                            <div class="col-12">
+                                                <button class="subs_btn d-block" type="submit" onclick="showAlert()">Subscribe</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        <footer>
+            <p class="text-center py-5 bg-light">@copyright issue 2022</p>
+        </footer>
+        <!-- Optional JavaScript -->
+        <!-- Popper.js first, then Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+        const like = document.getElementById('like_btn');
+        const singleClick = () => {
+            like.style.fontWeight = 'bold';
+            like.style.background = '#bbe1fa';
+            like.style.color = '#1b262c';
+            like.innerHTML = "✓ Liked";
+        }
+        const doubleClick = () => {
+            like.style.fontWeight = 'normal';
+            like.style.background = '#3282b8';
+            like.style.color = '#fff';
+            like.innerHTML = "Like";
+        }
+        var clickCount = 0;
+        like.addEventListener('click', function() {
+            clickCount++;
+            if (clickCount === 1) {
+                singleClickTimer = setTimeout(function() {
+                    clickCount = 0;
+                    singleClick();
+                }, 400);
+            } else if (clickCount === 2) {
+                clearTimeout(singleClickTimer);
+                clickCount = 0;
+                doubleClick();
+            }
+        }, false);
+        // show and hide the replies
+        const reply = (rep) => {
+            console.log('hi');
+            // debugger;
+            var res = document.getElementById(rep);
+            console.log(res);
+            if (res.className == "replies") {
+                res.className = "Abhishek_show";
+                res.style.WebkitTransition = 'all 0.3s ease';
+                // res.style.transition = 'all 0.3s ease';
+                // console.log(Abhishek_show);
+            } else if (res.className == 'Abhishek_show') {
+                // res.className = " ";
+                console.log('Abhishek show');
+                res.className = "replies";
+            }
+            
+        }
+        function showAlert() {
+    alert("You have successfully subscribed the page!");
+          }
+        </script>
+    </body>
+</html>
